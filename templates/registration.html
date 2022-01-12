@@ -1,0 +1,91 @@
+ {% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <style>
+        body {
+            background-color: rgb(16, 47, 68);
+           } 
+        .reg-box{
+            background-image: url({% static 'images/1.jpg' %});
+        }
+        .login-form{
+            margin-top:4% ;
+          }
+        
+          .form-label{
+            color: aqua;
+          }
+        
+          .form-title{
+            color:aquamarine;
+            text-align: center;
+            font-variant: small-caps;
+          }
+        
+          .textbox{
+            margin-bottom: -3%;
+          }
+        
+          .form-register-btn{
+           border: none;
+           width: 100%;
+           margin-top: 4px;
+           margin-bottom: 8px;
+          }
+    </style>
+</head>
+<body> 
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                    <div class="login-form shadow p-3 mb-5 bg-body rounded reg-box" style=''>
+                        <form action="/" method="Get">
+                            <h1 class="form-title">Registration</h1>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Enter Email</label>
+                                <input type="email" class="form-control textbox" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="firstname" class="form-label">First Name</label>
+                                <input type="First Name" class="form-control textbox" id="" aria-describedby="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastname" class="form-label">Last Name</label>
+                                <input type="email" class="form-control textbox" id="" aria-describedby="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="email" class="form-control textbox" id="" aria-describedby="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control textbox" id="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="confirmpassword" class="form-label"> Confirm Password</label>
+                                <input type="password" class="form-control textbox" id="">
+                            </div>
+                                <button type="submit" class="btn btn-primary form-register-btn">Register</button>
+                                <a href="/" class="">Wants to Login Click here?</a>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+        </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
+
